@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Punto 2 – Three.js</title>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+    }
+
+    #info {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      font-size: 14px;
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="info">
+    <div><strong>Punto 2 – Three.js</strong></div>
+    <div>Teclas: [1] Vista frontal · [2] Vista superior</div>
+    <div>Mouse: arrastrar = rotar · rueda = zoom</div>
+  </div>
+
+  <!-- Three.js (solo este script, nada de OrbitControls) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Tu código -->
+  <script src="./main.js"></script>
+</body>
+</html>
